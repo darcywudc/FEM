@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Conda
+.conda/
+
+# FEM specific
+*.inp
+*.dat
+*.frd
+*.sta
+*.cvg
+*.log
+
+# Temporary analysis files
+temp_*
+*_temp.*
+backup_*
+
+# Large result files (keep analysis PNGs but exclude large data)
+*.h5
+*.hdf5
+*.vtk
+*.vtu
+*.mesh
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini 
