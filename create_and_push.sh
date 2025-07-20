@@ -16,7 +16,7 @@ echo ""
 
 # 创建GitHub仓库
 echo "📁 创建GitHub仓库..."
-gh repo create fem-analysis-env \
+gh repo create FEM \
   --public \
   --description "FEM Analysis Environment for Apple Silicon Mac - Continuous Bridge Analysis" \
   --confirm
@@ -31,7 +31,7 @@ echo ""
 
 # 添加远程仓库并推送
 echo "📤 推送代码到GitHub..."
-git remote add origin https://github.com/darcywudc/fem-analysis-env.git 2>/dev/null || echo "远程仓库已存在"
+git remote add origin https://github.com/darcywudc/FEM.git 2>/dev/null || echo "远程仓库已存在"
 git push -u origin main
 
 if [ $? -eq 0 ]; then

@@ -5,7 +5,7 @@ echo ""
 
 # 🔧 请修改以下变量为您的GitHub信息
 GITHUB_USERNAME="darcywudc"               # 您的GitHub用户名
-REPO_NAME="fem-analysis-env"              # 仓库名
+REPO_NAME="FEM"                           # 仓库名
 
 # 🔗 构建仓库URL
 REPO_URL="https://github.com/${GITHUB_USERNAME}/${REPO_NAME}.git"
